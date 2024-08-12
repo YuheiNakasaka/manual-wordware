@@ -29,7 +29,7 @@ function App() {
   return (
     <>
       <header className='w-full bg-white p-2 text-black'>
-        <h1 className='text-2xl font-bold text-center'>手書きでwordware</h1>
+        <h1 className='text-2xl font-bold text-center'>自演wordware</h1>
       </header>
 
       <div className='flex-center relative min-h-screen w-full flex-col gap-12 bg-[#F9FAFB] px-4 py-8 sm:px-12 md:px-28 md:pt-24'>
@@ -40,7 +40,7 @@ function App() {
             rows={4}
             value={inputText}
             onChange={handleInputChange}
-            placeholder='例) こんにちはボケナス！'
+            placeholder='例) 素晴らしい人間ですね！本当に素晴らしいです！天才！天才！万歳！'
           />
         </div>
 
